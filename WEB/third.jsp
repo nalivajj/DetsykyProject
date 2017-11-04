@@ -11,10 +11,12 @@
 </form>
 <h1>
     <% String temp = (String)session.getAttribute("atr");
-     if(temp!=null) %>
-   <% { %>
-    <%= temp%>
+     if(temp!=null) {%>
+    <%=temp %>
     <% } %>
+
+
+
 
 </h1>
 </body>

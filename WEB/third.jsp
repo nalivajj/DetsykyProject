@@ -7,7 +7,7 @@
 <form action="ServletForth" method="get">
     Enter id value: <br>
     <input type="number" name="idValue"> <br>
-    <input type="submit" value="Add">
+    <input type="submit" value="Show">
 </form>
 <h1>
     <% String temp = (String)session.getAttribute("atr");

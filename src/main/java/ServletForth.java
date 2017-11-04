@@ -18,7 +18,7 @@ public class ServletForth extends HttpServlet {
            statement = connection.createStatement();
            ResultSet temp = statement.executeQuery(sql);
            while(temp.next()) {
-               str = temp.getString(1) + " " + temp.getString(2) + " " + temp.getString(3);
+               str = temp.getInt(1) + " " + temp.getString(2) + " " + temp.getString(3);
            }
            statement.close();
            connection.close();

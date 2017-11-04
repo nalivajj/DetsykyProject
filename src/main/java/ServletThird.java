@@ -16,7 +16,7 @@ public class ServletThird extends HttpServlet {
         try {
             String sql = "INSERT INTO \"User\"(email, password) " + " VALUES (?, ?)";
             statement = connection.prepareStatement(sql);
-            statement.setString(5, temp.getEmail());
+            statement.setString(1, temp.getEmail());
             statement.setString(2, temp.getPassword());
             statement.executeUpdate();
             statement.close();

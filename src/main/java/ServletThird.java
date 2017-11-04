@@ -24,6 +24,7 @@ public class ServletThird extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        //testpush
         getServletContext().getRequestDispatcher("/third.jsp").forward(req, resp);
     }
 

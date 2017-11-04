@@ -6,7 +6,7 @@
 <body>
     <h1>
         Please add user on this page
-    </h1> <br> <br> <br>
+    </h1> <br> 
     <form action="ServletThird" method="post">
         Enter your email: <br>
         <input type="email" name="userEmail"> <br>

@@ -6,11 +6,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 public class ServletSecond extends HttpServlet {
-    public void doGet(HttpServletRequest req, HttpServletResponse res)
-            throws ServletException,IOException
-    {
-
+    public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException,IOException {
         getServletContext().getRequestDispatcher("/second.jsp").forward(req, res);
-
     }
 }

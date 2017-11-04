@@ -4,13 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-
     <groupId>FirstServletProject</groupId>
     <artifactId>FirstServletProject</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-
-
     <dependencies>
 
         <dependency>
@@ -19,13 +15,11 @@
             <version>2.5</version>
             <scope>provided</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
         <dependency>
             <groupId>postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>9.1-901.jdbc4</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
@@ -33,8 +27,4 @@
         </dependency>
 
     </dependencies>
-    <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
-
-
-
 </project>
